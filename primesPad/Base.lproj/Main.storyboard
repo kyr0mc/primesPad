@@ -1,0 +1,1732 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController modalTransitionStyle="flipHorizontal" id="BYZ-38-t0r" customClass="ViewController" customModule="primesPad" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kYj-aX-x0u">
+                                <rect key="frame" x="42" y="484" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.053849951372236249" blue="0.34707782094551498" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="3">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button3OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="QRw-dw-wpj"/>
+                                    <action selector="button3OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y9r-mv-pfG"/>
+                                    <action selector="button3On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="a9J-Io-hTz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ql-UF-kxR">
+                                <rect key="frame" x="42" y="415" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.057683751147333151" blue="0.45406770262359042" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="5">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button5OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="oR2-uu-I9f"/>
+                                    <action selector="button5OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p0W-wp-XzH"/>
+                                    <action selector="button5On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="uqL-As-Yg2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ikX-ed-7QC">
+                                <rect key="frame" x="42" y="347" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.048128378624786028" blue="0.55158450289097938" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="7">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button7OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="WRS-rP-ebu"/>
+                                    <action selector="button7OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xEl-vu-q79"/>
+                                    <action selector="button7On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="df8-Ub-G96"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MdE-lx-tRw">
+                                <rect key="frame" x="42" y="279" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.051817930732834583" blue="0.77285294075528144" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="11">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button11OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="Dew-qy-yh4"/>
+                                    <action selector="button11OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TTq-lD-tAC"/>
+                                    <action selector="button11On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="JVP-5A-iBi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wej-Qe-xgp">
+                                <rect key="frame" x="42" y="211" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.87765280282266578" green="0.062542111839838599" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="13">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button13OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Ee-ie-T7I"/>
+                                    <action selector="button13OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="JWV-7S-D3r"/>
+                                    <action selector="button13On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="3rS-tK-FcU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wka-65-sOA">
+                                <rect key="frame" x="42" y="143" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.65687916488752873" green="0.082941834827197303" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="17">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button17OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="78G-Af-pbG"/>
+                                    <action selector="button17OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="u2a-Ye-291"/>
+                                    <action selector="button17On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="RoB-oW-eWP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dnD-D7-XAH">
+                                <rect key="frame" x="42" y="0.0" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.52529722685673819" green="0.084047909675827204" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="23">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button23OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="2kY-eW-RP2"/>
+                                    <action selector="button23OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hgr-QG-Scx"/>
+                                    <action selector="button23On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="sWU-5Y-8OQ"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="60" minValue="10" maxValue="120" translatesAutoresizingMaskIntoConstraints="NO" id="grj-Pf-hNI">
+                                <rect key="frame" x="196" y="678" width="819" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1" y="1" width="1" height="0.94999999999999996"/>
+                                <connections>
+                                    <action selector="FundSliderChangedWith_sender:" destination="BYZ-38-t0r" eventType="valueChanged" id="aDq-2A-EB5"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ZTd-El-Dr1">
+                                <rect key="frame" x="196" y="718" width="819" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                                <connections>
+                                    <action selector="volumeSlideChangedWith_sender:" destination="BYZ-38-t0r" eventType="valueChanged" id="3zB-Jx-BlJ"/>
+                                </connections>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SGO-yb-V2d">
+                                <rect key="frame" x="103" y="415" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.049692906983188623" blue="0.62645925459139151" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="10">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button10OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RAF-Nd-bb6"/>
+                                    <action selector="button10OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="wuj-LQ-GzD"/>
+                                    <action selector="button10On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="hqT-SE-vSX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4M-7m-Y6H">
+                                <rect key="frame" x="103" y="484" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.061849438104932597" blue="0.51247281303931669" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="6">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button6OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="DlA-Hx-Sf1"/>
+                                    <action selector="button6OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I9Y-lc-piC"/>
+                                    <action selector="button6On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="Kb2-A8-fB5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5f7-QO-nkR">
+                                <rect key="frame" x="103" y="347" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.85378623629999995" green="0.075508363329999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="14">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button14OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="FkO-br-XkO"/>
+                                    <action selector="button14OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q6C-CL-8LZ"/>
+                                    <action selector="button14On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="S2D-f0-ATK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKv-7m-33u">
+                                <rect key="frame" x="103" y="211" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.35786025856834236" green="0.0045770133820192127" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="26">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button26OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="hoc-BA-hOg"/>
+                                    <action selector="button26OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="osC-4L-o4e"/>
+                                    <action selector="button26On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="oZe-Vz-5wj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Trj-Jf-cW1">
+                                <rect key="frame" x="103" y="143" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.021533697376556526" green="0.056532900873819347" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="34">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button34OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QI1-nQ-61V"/>
+                                    <action selector="button34OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="Qet-5b-MFT"/>
+                                    <action selector="button34On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="sMO-rd-ibc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HOe-ch-hFY">
+                                <rect key="frame" x="103" y="0.0" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.026159902860868778" green="0.64691571586760843" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="46">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button46OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="LOn-xA-taP"/>
+                                    <action selector="button46OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xzw-Pf-Wfn"/>
+                                    <action selector="button46On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="YXQ-4e-am0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sLj-va-dlz">
+                                <rect key="frame" x="164" y="484" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.064439048071902927" blue="0.57340378683321491" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="9">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button9OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WaK-xJ-qAN"/>
+                                    <action selector="button9OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="Zsc-ck-c3E"/>
+                                    <action selector="button9On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="FE9-oK-851"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1C-Lt-1rV">
+                                <rect key="frame" x="164" y="415" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83754474229999998" green="0.056223748160000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="15">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button15OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="65m-F5-FUq"/>
+                                    <action selector="button15OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bYz-w6-BYh"/>
+                                    <action selector="button15On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="LFN-D3-xMI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ao9-fT-1mk">
+                                <rect key="frame" x="164" y="347" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.44398607165741677" green="0.022214276145359757" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="21">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button21OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CWz-Fo-aTL"/>
+                                    <action selector="button21OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="NeO-aW-uLM"/>
+                                    <action selector="button21On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="qwK-Rf-0Nl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vJf-jR-jcU">
+                                <rect key="frame" x="164" y="279" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.080205879195528795" green="0.022714485873802315" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="33">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button33OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="XPy-Zc-gO6"/>
+                                    <action selector="button33OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sGk-Eq-LmB"/>
+                                    <action selector="button33On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="MKN-oh-0yp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sj0-WM-sdA">
+                                <rect key="frame" x="164" y="211" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.28552046279171073" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="39">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button39OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Xr-ff-Nw2"/>
+                                    <action selector="button39OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="gaF-5s-5bu"/>
+                                    <action selector="button39On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="23s-D2-ete"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JGN-0Q-xFw">
+                                <rect key="frame" x="164" y="143" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.003624919538748661" green="1" blue="0.95401648539980755" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="51">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button51OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="CMZ-MX-ED5"/>
+                                    <action selector="button51OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NgA-V1-0Gg"/>
+                                    <action selector="button51On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="nh7-c6-4bn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aqo-Ur-OZx">
+                                <rect key="frame" x="164" y="0.0" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.38029008105073014" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="69">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button69OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EDd-Fo-6od"/>
+                                    <action selector="button69OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="Ukj-Pe-qmJ"/>
+                                    <action selector="button69On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="Y8a-M5-owh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qVm-Iz-cI3">
+                                <rect key="frame" x="225" y="484" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.028707823149553002" blue="0.86134170004825228" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="12">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button12OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fNQ-us-4Is"/>
+                                    <action selector="button12OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="gJh-qf-nDc"/>
+                                    <action selector="button12On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="USK-sr-VZh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zgC-Hk-vve">
+                                <rect key="frame" x="225" y="415" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.48764747614783621" green="0.035068755223695902" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="20">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button20OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yfd-15-5G4"/>
+                                    <action selector="button20OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="v4z-OE-3gI"/>
+                                    <action selector="button20On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="qwe-u8-sa0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NWA-CG-SCk">
+                                <rect key="frame" x="225" y="347" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.24801676124903804" green="0.01190695706566558" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="28">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button28OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vjy-eF-L7d"/>
+                                    <action selector="button28OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="q65-D7-sV9"/>
+                                    <action selector="button28On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="z2b-UH-Fi0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k0Y-bZ-9Ke">
+                                <rect key="frame" x="225" y="279" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.010988111005918566" green="0.50647551603099683" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="44">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button44OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e5y-pg-Lho"/>
+                                    <action selector="button44OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="fWQ-rp-w6l"/>
+                                    <action selector="button44On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="rgm-hl-tpJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vl0-GD-2oh">
+                                <rect key="frame" x="225" y="211" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.89026165336355234" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="52">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button52OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0aQ-vi-LwV"/>
+                                    <action selector="button52OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="UJK-xo-Gcc"/>
+                                    <action selector="button52On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="WeT-BS-Zj8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehc-pw-WPI">
+                                <rect key="frame" x="225" y="143" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.43214720633724557" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="68">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button68OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ln1-Gu-KSw"/>
+                                    <action selector="button68OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="cfH-rR-Hgq"/>
+                                    <action selector="button68On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="6GQ-Fg-gET"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aID-AA-MdF">
+                                <rect key="frame" x="225" y="0.0" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.94279452800316299" green="1" blue="0.0089093333889835868" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="92">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button92OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9YY-tl-nzb"/>
+                                    <action selector="button92OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="lYj-e2-pNE"/>
+                                    <action selector="button92On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="S5v-vR-9gw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUx-k7-uaR">
+                                <rect key="frame" x="286" y="484" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.84639568417178412" green="0.073113759807525325" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="15">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button15OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Rn-oW-xnZ"/>
+                                    <action selector="button15OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="c1Y-gS-xxs"/>
+                                    <action selector="button15On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="gdG-8O-6UX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vfY-B7-WGk">
+                                <rect key="frame" x="286" y="415" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.39210811657762867" green="0.019880613997138585" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="25">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button25OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7kZ-Aj-66a"/>
+                                    <action selector="button25OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="S9O-hh-KYt"/>
+                                    <action selector="button25On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="Tyf-wm-akY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gZ1-5B-MdK">
+                                <rect key="frame" x="347" y="484" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.61468245892410367" green="0.07909198042768717" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="18">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button18OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bQ5-1d-66e"/>
+                                    <action selector="button18OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="wfQ-kB-q1P"/>
+                                    <action selector="button18On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="PHh-Lg-Yzn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WE7-bo-x2k">
+                                <rect key="frame" x="408" y="484" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.44398607165741677" green="0.022214276145359757" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="21">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button21OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="54S-46-ClT"/>
+                                    <action selector="button21OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sjZ-eD-Uh1"/>
+                                    <action selector="button21On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="nCV-sI-S0F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uTH-ed-kqh">
+                                <rect key="frame" x="469" y="484" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.41991866162270874" green="0.04369631088989101" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="24">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button24OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="4hD-xW-XJh"/>
+                                    <action selector="button24OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BTx-wn-zo1"/>
+                                    <action selector="button24On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="Z9e-U5-Tef"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YLx-AT-4eg">
+                                <rect key="frame" x="528" y="484" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29899538417802862" green="0.013269329875092106" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="27">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button27OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AeW-Qg-FE9"/>
+                                    <action selector="button27OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="CNq-Nn-TCN"/>
+                                    <action selector="button27On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="dZJ-EA-4At"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vaX-Fy-wvi">
+                                <rect key="frame" x="587" y="484" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.17142587005250309" green="0.014050540905221953" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="30">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button30OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="CfC-7k-Yns"/>
+                                    <action selector="button30OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SFb-3Y-1Fm"/>
+                                    <action selector="button30On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="fWJ-or-gr1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EN9-y1-6VX">
+                                <rect key="frame" x="648" y="484" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.080205879195528795" green="0.022714485873802315" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="33">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button33OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="Fsa-zh-pPa"/>
+                                    <action selector="button33OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="byB-72-4c1"/>
+                                    <action selector="button33On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="ZsY-P1-znj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kEC-lg-n1T">
+                                <rect key="frame" x="709" y="484" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.021824420527551514" green="0.2222209532913394" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="36">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button36OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EMb-zp-Ws7"/>
+                                    <action selector="button36OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="mGD-wF-l0C"/>
+                                    <action selector="button36On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="KJ4-Wp-mZB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bEz-Qh-o0g">
+                                <rect key="frame" x="770" y="484" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.28552046279171073" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="39">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button39OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="R1A-iH-Lmg"/>
+                                    <action selector="button39OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XiI-rY-t0U"/>
+                                    <action selector="button39On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="PBM-sX-prO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wqr-ZP-er2">
+                                <rect key="frame" x="831" y="484" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.028697480794760533" green="0.41897230334176594" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="42">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button42OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="58U-C6-7vx"/>
+                                    <action selector="button42OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="9Er-kN-MXt"/>
+                                    <action selector="button42On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="H9s-mc-Wkb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="otI-ys-DHA">
+                                <rect key="frame" x="892" y="484" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.018957463027915344" green="0.58106958231731598" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="45">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button45OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yTV-hv-soa"/>
+                                    <action selector="button45OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="zoF-tm-Bdb"/>
+                                    <action selector="button45On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="LCN-no-Iqs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NgO-G9-sAA">
+                                <rect key="frame" x="953" y="484" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.04354504794496783" green="0.77127838613868571" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="48">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button48OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p3h-lB-Ahm"/>
+                                    <action selector="button48OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="u9Q-EP-DKI"/>
+                                    <action selector="button48On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="i9a-Ks-ETW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6vN-Vk-hN2">
+                                <rect key="frame" x="347" y="415" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.17142587005250309" green="0.014050540905221953" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="30">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button30OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="AZg-Ij-c1A"/>
+                                    <action selector="button30OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RXm-Jp-zgr"/>
+                                    <action selector="button30On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="Z8h-fF-YVA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8kT-ft-yEI">
+                                <rect key="frame" x="408" y="415" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0097589824580699425" green="0.15738494004429082" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="35">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button35OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7UH-fq-s5r"/>
+                                    <action selector="button35OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="IwC-dA-KlC"/>
+                                    <action selector="button35On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="LaV-CK-zao"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pnx-Nc-p0p">
+                                <rect key="frame" x="469" y="415" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.023389605463983387" green="0.37550120333012005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="40">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button40OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="f5T-Um-zy4"/>
+                                    <action selector="button40On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="KJb-yF-lzP"/>
+                                    <action selector="button4OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pcz-Ra-1pa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sqG-SD-gC5">
+                                <rect key="frame" x="528" y="415" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.018957463027915344" green="0.58106958231731598" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="45">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button45OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="HqA-9u-759"/>
+                                    <action selector="button45OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bgi-yr-L7F"/>
+                                    <action selector="button45On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="4qo-uU-MTB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hmc-dJ-VQi">
+                                <rect key="frame" x="587" y="415" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.026931465734650328" green="0.95698713604546981" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="50">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button50OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nKP-7A-EIk"/>
+                                    <action selector="button50OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="rg7-Vq-0Uw"/>
+                                    <action selector="button50On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="5PD-3s-bP2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DmA-3h-qHE">
+                                <rect key="frame" x="648" y="415" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.86943873350109646" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="55">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button55OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="T4f-A4-GX6"/>
+                                    <action selector="button55OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X9f-fb-K3h"/>
+                                    <action selector="button55On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="8it-N1-0Wc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LeC-o4-ugN">
+                                <rect key="frame" x="709" y="415" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.61107496919303639" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="60">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button60OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oM6-iB-oXa"/>
+                                    <action selector="button60On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="B9Y-xu-5PZ"/>
+                                    <action selector="button6OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="iCF-qg-SZS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1jX-e6-dXb">
+                                <rect key="frame" x="831" y="415" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.32317267752058276" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="70">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button70OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hE7-F3-6hh"/>
+                                    <action selector="button70On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="6Ma-Gw-zH8"/>
+                                    <action selector="button7OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="PgQ-Gt-p67"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cal-kC-1zN">
+                                <rect key="frame" x="892" y="415" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.12183620954523922" green="1" blue="0.065350692751669381" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="75">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button75OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OAg-x2-gAh"/>
+                                    <action selector="button75OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="eJW-Uu-kiU"/>
+                                    <action selector="button75On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="tTn-ur-IIx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgL-RQ-9nc">
+                                <rect key="frame" x="953" y="415" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.58270263981247283" green="1" blue="0.017488326236163587" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="80">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button80On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="xSZ-YL-aya"/>
+                                    <action selector="button8OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wxj-oc-Gaa"/>
+                                    <action selector="button8OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="eVD-pp-MPr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XQ0-p0-xOc">
+                                <rect key="frame" x="286" y="347" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0097589824580699425" green="0.15738494004429082" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="35">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button35OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IQc-mX-w3I"/>
+                                    <action selector="button35OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="iI9-CA-LDo"/>
+                                    <action selector="button35On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="JPR-wr-mxU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iZm-3g-i9e">
+                                <rect key="frame" x="347" y="347" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.028697480794760533" green="0.41897230334176594" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="42">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button42OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4K9-pn-MJY"/>
+                                    <action selector="button42OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="u6l-fr-LjX"/>
+                                    <action selector="button42On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="Wuy-vZ-yyB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fce-0i-MRs">
+                                <rect key="frame" x="408" y="347" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.012545326154188463" green="0.81993860906520277" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="49">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button49OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cfY-xc-btg"/>
+                                    <action selector="button49OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="phr-rX-MiS"/>
+                                    <action selector="button49On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="CDr-8W-wG1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1t0-pr-qNW">
+                                <rect key="frame" x="469" y="347" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.79456808799625733" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="56">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button56OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="mPc-nR-XvV"/>
+                                    <action selector="button56OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nbw-qY-oM4"/>
+                                    <action selector="button56On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="Ndj-p0-7fM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZiI-7X-Gjr">
+                                <rect key="frame" x="528" y="347" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.55522520412444587" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="63">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button63OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="JcX-bW-2Q3"/>
+                                    <action selector="button63OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hkC-Ab-b1V"/>
+                                    <action selector="button63On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="jw9-cM-Ubr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ilv-ZT-7kK">
+                                <rect key="frame" x="587" y="347" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.32317267752058276" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="70">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button70OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="UDY-7b-0Gh"/>
+                                    <action selector="button70On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="hRR-K1-xPG"/>
+                                    <action selector="button7OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fyy-lH-5I7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EyW-1a-lFQ">
+                                <rect key="frame" x="648" y="347" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.30905907724941417" green="1" blue="0.04941105904728027" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="77">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button77OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aMv-5r-SFa"/>
+                                    <action selector="button77OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="dre-IG-ebE"/>
+                                    <action selector="button77On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="msT-hU-EHQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yEn-gb-0IP">
+                                <rect key="frame" x="709" y="347" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.58194276676683376" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="84">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button84OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="17m-rY-lTk"/>
+                                    <action selector="button84OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="LUu-m3-ZmV"/>
+                                    <action selector="button84On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="6hg-nM-KND"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KXM-6z-XcR">
+                                <rect key="frame" x="770" y="347" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92100690925117867" green="1" blue="0.03288093111629331" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="91">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button91OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0gY-UE-tlx"/>
+                                    <action selector="button91OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="9tb-2E-yML"/>
+                                    <action selector="button91On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="E99-Bo-l0o"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jmx-64-DiS">
+                                <rect key="frame" x="831" y="347" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99593752014756631" green="1" blue="0.034036782951866074" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="98">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button98OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8mn-IW-2nS"/>
+                                    <action selector="button98OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="x60-DR-Y45"/>
+                                    <action selector="button98On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="Puh-NQ-1Ty"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IUn-GC-vMz">
+                                <rect key="frame" x="286" y="279" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.86943873350109646" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="55">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button55OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A7Z-Qk-wXQ"/>
+                                    <action selector="button55OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="H5G-Ka-awC"/>
+                                    <action selector="button55On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="ocB-L0-6et"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eaE-yF-Bsh">
+                                <rect key="frame" x="347" y="279" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.49462408333587105" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="66">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button66OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5SO-LC-ml9"/>
+                                    <action selector="button66OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="ZPc-Az-cbO"/>
+                                    <action selector="button66On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="cW1-2L-EMK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S9v-KL-A1U">
+                                <rect key="frame" x="408" y="279" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.30905907724941417" green="1" blue="0.04941105904728027" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="77">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button77OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Ys-Hv-BLi"/>
+                                    <action selector="button77OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="uWw-ap-coI"/>
+                                    <action selector="button77On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="io8-ko-eih"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1X-op-7Jq">
+                                <rect key="frame" x="469" y="279" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.84082809429007432" green="1" blue="0.024349403064695241" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="88">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button88OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A3R-jb-5rY"/>
+                                    <action selector="button88OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="mqq-bX-uyq"/>
+                                    <action selector="button88On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="8Gl-ly-d5Q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wY9-ZL-pU4">
+                                <rect key="frame" x="528" y="279" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.9474731241434734" blue="0.011704433236891743" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="99">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button99OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rCN-fZ-3j4"/>
+                                    <action selector="button99OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="rxI-Nk-HRf"/>
+                                    <action selector="button99On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="7sQ-CY-NNw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XTs-gp-I4W">
+                                <rect key="frame" x="286" y="211" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.51119110014625058" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="65">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button65OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="7Ir-CK-khk"/>
+                                    <action selector="button65OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jvL-gb-UJx"/>
+                                    <action selector="button65On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="8jf-lN-yoG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ew0-Wq-lDN">
+                                <rect key="frame" x="347" y="211" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.42534059130466506" green="1" blue="0.034043202734973854" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="78">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button78OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aWc-qz-ds6"/>
+                                    <action selector="button78OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="nDK-Y2-fIa"/>
+                                    <action selector="button78On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="ATi-Im-Huh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SO6-GK-OGB">
+                                <rect key="frame" x="408" y="211" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92100690925117867" green="1" blue="0.03288093111629331" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="91">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button91OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="cAP-78-xEI"/>
+                                    <action selector="button91OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mi2-lw-Jp2"/>
+                                    <action selector="button91On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="eSu-7v-6LE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="45k-53-6e6">
+                                <rect key="frame" x="286" y="143" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.74210239904207809" green="1" blue="0.009883908992283974" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="85">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button85OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="Fhe-x8-TOJ"/>
+                                    <action selector="button85OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vW2-Pc-fu3"/>
+                                    <action selector="button85On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="yxa-a9-N2T"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fundamental" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cKO-Wp-BwP">
+                                <rect key="frame" x="20" y="683" width="188" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Volume" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6t-OH-YgX">
+                                <rect key="frame" x="20" y="723" width="176" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zFk-AC-C9q">
+                                <rect key="frame" x="630" y="8" width="144" height="144"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <state key="normal" title="Double" image="DoubleButton.png"/>
+                                <connections>
+                                    <action selector="buttonDoubleOn_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="0XX-Th-hOn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NfY-9U-c6w">
+                                <rect key="frame" x="824" y="8" width="144" height="144"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <state key="normal" title="Triple" image="TripleButton.png"/>
+                                <connections>
+                                    <action selector="buttonTripleOn_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="uff-ri-Ose"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k9n-1N-D3a">
+                                <rect key="frame" x="824" y="164" width="144" height="144"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <state key="normal" title="Third" image="ThirdButton.png"/>
+                                <connections>
+                                    <action selector="buttonThirdOn_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="Z0r-8E-Dip"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sdE-bC-kWe">
+                                <rect key="frame" x="42" y="68" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.52529722690000002" green="0.084047909680000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="19">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button19OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LA1-vc-JNR"/>
+                                    <action selector="button19OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="rB6-ef-Tt7"/>
+                                    <action selector="button19On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="9Gq-uQ-Rlg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tjn-TE-fp8">
+                                <rect key="frame" x="103" y="68" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.24034316605402939" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="38">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button38OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="4JG-zy-NlW"/>
+                                    <action selector="button38OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8VM-O7-ZgU"/>
+                                    <action selector="button38On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="HKb-A6-l3Q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pYc-lE-iuD">
+                                <rect key="frame" x="164" y="68" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.71897383960716343" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="57">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button57OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="7kL-0J-Nfy"/>
+                                    <action selector="button57OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="emV-vE-8fV"/>
+                                    <action selector="button57On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="MJS-sV-N3k"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c29-yM-pCg">
+                                <rect key="frame" x="225" y="68" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.22459872014997639" green="1" blue="0.071651537616937877" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="76">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button76OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Ou-yo-LwM"/>
+                                    <action selector="button76OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="ULk-M9-wGq"/>
+                                    <action selector="button76On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="8zz-4b-aSX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQf-ai-VfG">
+                                <rect key="frame" x="286" y="68" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96978442272955245" green="1" blue="0.01971070317309942" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="95">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button95OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="FLi-Xc-tgg"/>
+                                    <action selector="button95OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GNp-vE-zAy"/>
+                                    <action selector="button95On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="kiZ-AF-nH4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BWd-pU-BdP">
+                                <rect key="frame" x="42" y="620" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.0181089792" blue="0.029941629010000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <color key="tintColor" red="0.0" green="0.78342305349999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="1">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="button1OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6an-2F-eTj"/>
+                                    <action selector="button1OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="Kjs-Pn-C2Z"/>
+                                    <action selector="button1On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="y8S-bp-VEM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zDO-bc-NnP">
+                                <rect key="frame" x="164" y="620" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.027510451849999999" blue="0.33368906980000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="3">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button3OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="D8B-qe-KFN"/>
+                                    <action selector="button3OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eW7-38-ANi"/>
+                                    <action selector="button3On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="GOS-7q-cFh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="znf-Nb-uO4">
+                                <rect key="frame" x="225" y="620" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.039974421150000002" blue="0.34668695669999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="4">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button4OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="oqJ-1h-haY"/>
+                                    <action selector="button4OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q3E-T4-JUb"/>
+                                    <action selector="button4On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="CBT-Ps-MSo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OUf-3d-VNj">
+                                <rect key="frame" x="286" y="620" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.047348859510000001" blue="0.44728591070000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="5">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button5OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="46D-cc-wED"/>
+                                    <action selector="button5OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a6R-UE-44S"/>
+                                    <action selector="button5On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="XLk-BM-GD1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dnw-Xg-2Se">
+                                <rect key="frame" x="347" y="620" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.033133822139999998" blue="0.51593831489999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="6">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button6OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="7L4-j9-3YT"/>
+                                    <action selector="button6OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W06-sM-tdJ"/>
+                                    <action selector="button6On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="w5p-5V-rLe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CUJ-xg-lxg">
+                                <rect key="frame" x="408" y="620" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.057351149580000003" blue="0.54103107969999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="7">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button7OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="WpB-50-AoQ"/>
+                                    <action selector="button7OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xHB-ox-gIW"/>
+                                    <action selector="button7On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="LGq-AE-HL6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UEx-3v-brv">
+                                <rect key="frame" x="469" y="620" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.062209371200000002" blue="0.56608364879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="8">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button8OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="3kj-NY-ga3"/>
+                                    <action selector="button8OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LhB-wM-7pd"/>
+                                    <action selector="button8On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="WHv-av-6wp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ysc-rQ-BHm">
+                                <rect key="frame" x="528" y="620" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.065968451900000002" blue="0.58561132660000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="9">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button9OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="FY2-fp-sTJ"/>
+                                    <action selector="button9OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cVL-7T-qF1"/>
+                                    <action selector="button9On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="YQa-ji-K16"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hU7-k3-Kpw">
+                                <rect key="frame" x="587" y="620" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.031493828940000003" blue="0.61576124109999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="10">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button10OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="Pam-54-SCL"/>
+                                    <action selector="button10OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f4Z-y9-C3l"/>
+                                    <action selector="button10On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="Wr0-gB-AlO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HpM-fH-Kvz">
+                                <rect key="frame" x="648" y="620" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.057992812179999999" blue="0.7648101826" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="11">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button11OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="Cxp-ms-n45"/>
+                                    <action selector="button11OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WJg-vC-muy"/>
+                                    <action selector="button11On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="eAq-yR-EGE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cMs-XE-cDH">
+                                <rect key="frame" x="709" y="620" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.01112094634" blue="0.86435967879999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="12">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button12OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="JbX-21-Pp3"/>
+                                    <action selector="button12OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dO1-au-xfw"/>
+                                    <action selector="button12On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="VB5-Sk-CsO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kqa-Ew-9Bi">
+                                <rect key="frame" x="770" y="620" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88765687660000003" green="0.067669584409999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="13">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button13OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="U4b-64-Dqo"/>
+                                    <action selector="button13OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ePS-yd-vXN"/>
+                                    <action selector="button13On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="VxD-rh-hIw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mc3-OH-OlU">
+                                <rect key="frame" x="831" y="620" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.85378623629999995" green="0.075508363329999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="14">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button14OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="PY6-ug-iQp"/>
+                                    <action selector="button14OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lSZ-BI-SEF"/>
+                                    <action selector="button14On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="9Lz-cZ-VpT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6So-Ry-bcY">
+                                <rect key="frame" x="892" y="620" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83754474229999998" green="0.056223748160000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="15">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button15OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7o3-B1-jLK"/>
+                                    <action selector="button15OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="8gY-BS-L3a"/>
+                                    <action selector="button15On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="Tnl-Fg-UrQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HPY-Yj-MO4">
+                                <rect key="frame" x="953" y="620" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.78000297959999998" green="0.04261391749" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="16">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button16OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BqQ-hC-MtI"/>
+                                    <action selector="button16OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="SLZ-w3-209"/>
+                                    <action selector="button16On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="v5w-9A-McT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tsB-gD-sw6">
+                                <rect key="frame" x="42" y="552" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.033770867910000002" blue="0.19376652389999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="2">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button2OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="qYD-pv-Fqh"/>
+                                    <action selector="button2OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ywz-ww-hlY"/>
+                                    <action selector="button2On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="o7d-Jl-x5j"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dWC-Ty-KSH">
+                                <rect key="frame" x="103" y="552" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.039974421150000002" blue="0.34668695669999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="4">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button4OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="WZ2-ka-71s"/>
+                                    <action selector="button4OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lhe-WY-VHR"/>
+                                    <action selector="button4On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="SNT-Th-dL5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rEm-pk-c7r">
+                                <rect key="frame" x="164" y="552" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.033133822139999998" blue="0.51593831489999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="6">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button6OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="Hyf-NM-1cr"/>
+                                    <action selector="button6OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XSn-aV-Oi0"/>
+                                    <action selector="button6On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="bOw-cz-BKt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PhL-CU-nZR">
+                                <rect key="frame" x="225" y="552" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.062209371200000002" blue="0.56608364879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="8">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button8OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kv8-y2-JXD"/>
+                                    <action selector="button8OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="fSe-vK-wik"/>
+                                    <action selector="button8On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="nAU-PH-XNS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s01-10-X5M">
+                                <rect key="frame" x="286" y="552" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.031493828940000003" blue="0.61576124109999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="10">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button10OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="Vxl-mr-r7u"/>
+                                    <action selector="button10OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jio-m0-KHF"/>
+                                    <action selector="button10On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="HBQ-y8-Tqd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ga-XD-gnP">
+                                <rect key="frame" x="347" y="552" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.01112094634" blue="0.86435967879999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="12">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button12OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Qq-83-Zub"/>
+                                    <action selector="button12OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="qRS-wV-iNR"/>
+                                    <action selector="button12On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="SFA-db-bmE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iYz-P0-EFs">
+                                <rect key="frame" x="408" y="552" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.85378623629999995" green="0.075508363329999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="14">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button14OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="9iu-pV-Kny"/>
+                                    <action selector="button14OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YBr-zs-cKz"/>
+                                    <action selector="button14On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="eO1-3x-GJY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GvL-nG-3lw">
+                                <rect key="frame" x="469" y="552" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.78000297959999998" green="0.04261391749" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="16">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button16OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NiO-vz-Z6i"/>
+                                    <action selector="button16OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="hDm-jN-jcI"/>
+                                    <action selector="button16On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="sEz-V9-7Ku"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQW-dS-QlJ">
+                                <rect key="frame" x="528" y="552" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.61468245889999995" green="0.07909198043" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="18">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button18OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="e1V-co-Ij6"/>
+                                    <action selector="button18OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="igF-OL-Eb0"/>
+                                    <action selector="button18On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="Hf3-cZ-DQL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bu5-3E-xG2">
+                                <rect key="frame" x="587" y="552" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.48764747609999998" green="0.035068755219999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="20">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button20OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6WP-YP-QRX"/>
+                                    <action selector="button20OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="x8y-x8-fKM"/>
+                                    <action selector="button20On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="wwR-zU-s8R"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOt-Nm-hzo">
+                                <rect key="frame" x="648" y="552" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.3883875024580431" green="0.010972966433192122" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="22">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button22OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QQm-YA-Rpr"/>
+                                    <action selector="button22OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="S9s-PQ-4yB"/>
+                                    <action selector="button22On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="pZt-qf-4vm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="11R-Bq-gYJ">
+                                <rect key="frame" x="709" y="552" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.41991866160000002" green="0.043696310889999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="24">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button24OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eyb-6r-l3V"/>
+                                    <action selector="button24OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="wxt-1X-pZq"/>
+                                    <action selector="button24On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="rsj-6q-yFk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Un-xK-mV1">
+                                <rect key="frame" x="770" y="552" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.35790362284817223" green="0.014268137676879622" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="26">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button26OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="jvc-Cf-rfh"/>
+                                    <action selector="button26OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nwu-mk-PcT"/>
+                                    <action selector="button26On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="9xg-Gt-jka"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wf1-JC-9JT">
+                                <rect key="frame" x="831" y="552" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.25205441294961872" green="0.0022279106366795975" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="28">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button28OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="AiE-aL-k3i"/>
+                                    <action selector="button28OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hx1-a1-G5i"/>
+                                    <action selector="button28On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="a2f-QF-Mkr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yIU-W8-VbV">
+                                <rect key="frame" x="892" y="552" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.17142587009999999" green="0.014050540909999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="30">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button30OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="SiV-uX-Fit"/>
+                                    <action selector="button30OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ejR-Rl-Wz0"/>
+                                    <action selector="button30On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="ERO-RZ-bCG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ca1-30-Jli">
+                                <rect key="frame" x="953" y="552" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.13957640964371798" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="32">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button32OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="X5P-B6-Hcp"/>
+                                    <action selector="button32OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pDL-6S-Ii7"/>
+                                    <action selector="button32On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="rUx-Zz-83d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N5g-ZB-R1a">
+                                <rect key="frame" x="103" y="279" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.38838750249999998" green="0.01097296643" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="22">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button22OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="JeO-Rm-FEY"/>
+                                    <action selector="button22OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K5i-Zm-OWa"/>
+                                    <action selector="button22On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="h5F-XR-iFI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="isX-Vu-iOv">
+                                <rect key="frame" x="770" y="415" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.51119110010000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="65">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button65OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X9n-1E-3Mb"/>
+                                    <action selector="button65OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="jhl-XG-RHL"/>
+                                    <action selector="button65On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="RUo-dm-2ue"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="31O-0j-D73">
+                                <rect key="frame" x="103" y="620" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.033770867910000002" blue="0.19376652389999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
+                                <state key="normal" title="2">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button2OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ncx-9Y-xfN"/>
+                                    <action selector="button2OffWith_sender:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="xXT-jH-wOD"/>
+                                    <action selector="button2On_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="BPS-U6-dmr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXI-sh-ISN">
+                                <rect key="frame" x="630" y="164" width="144" height="144"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.75"/>
+                                <state key="normal" title="Half" image="HalfButton.png"/>
+                                <connections>
+                                    <action selector="buttonHalfOn_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="0Zx-J4-Ucb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1024" height="768"/>
+                    <connections>
+                        <outlet property="fundLabel" destination="cKO-Wp-BwP" id="PAO-0E-Sqt"/>
+                        <outlet property="volumeLabel" destination="k6t-OH-YgX" id="akl-rG-ggL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="201.59999999999999" y="-28.785607196401802"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DoubleButton.png" width="683" height="683"/>
+        <image name="HalfButton.png" width="704" height="685"/>
+        <image name="ThirdButton.png" width="684" height="699"/>
+        <image name="TripleButton.png" width="685" height="685"/>
+    </resources>
+</document>

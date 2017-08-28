@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0017E88F1E63D2F900A7A81C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0017E88E1E63D2F900A7A81C /* AppDelegate.swift */; };
+		0017E8911E63D2F900A7A81C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0017E8901E63D2F900A7A81C /* ViewController.swift */; };
+		0017E8941E63D2F900A7A81C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0017E8921E63D2F900A7A81C /* Main.storyboard */; };
+		0017E8961E63D2F900A7A81C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0017E8951E63D2F900A7A81C /* Assets.xcassets */; };
+		0017E8991E63D2F900A7A81C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0017E8971E63D2F900A7A81C /* LaunchScreen.storyboard */; };
+		0017E8A41E63D2F900A7A81C /* primesPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0017E8A31E63D2F900A7A81C /* primesPadTests.swift */; };
+		0017E8AF1E63D2F900A7A81C /* primesPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0017E8AE1E63D2F900A7A81C /* primesPadUITests.swift */; };
+		00A2A3F01E64F33200D1CDEA /* DoubleButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A2A3EC1E64F33200D1CDEA /* DoubleButton.png */; };
+		00A2A3F11E64F33200D1CDEA /* HalfButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A2A3ED1E64F33200D1CDEA /* HalfButton.png */; };
+		00A2A3F21E64F33200D1CDEA /* ThirdButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A2A3EE1E64F33200D1CDEA /* ThirdButton.png */; };
+		00A2A3F31E64F33200D1CDEA /* TripleButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A2A3EF1E64F33200D1CDEA /* TripleButton.png */; };
+		00B175381E64126100F171AB /* RtSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B175371E64126100F171AB /* RtSwift.framework */; };
+		00B175391E64167200F171AB /* RtSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B175371E64126100F171AB /* RtSwift.framework */; };
+		00B1753A1E64167200F171AB /* RtSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00B175371E64126100F171AB /* RtSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0017E8A01E63D2F900A7A81C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0017E8831E63D2F900A7A81C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0017E88A1E63D2F900A7A81C;
+			remoteInfo = primesPad;
+		};
+		0017E8AB1E63D2F900A7A81C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0017E8831E63D2F900A7A81C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0017E88A1E63D2F900A7A81C;
+			remoteInfo = primesPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		00B1753B1E64167200F171AB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				00B1753A1E64167200F171AB /* RtSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0017E88B1E63D2F900A7A81C /* primesPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = primesPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0017E88E1E63D2F900A7A81C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0017E8901E63D2F900A7A81C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0017E8931E63D2F900A7A81C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0017E8951E63D2F900A7A81C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0017E8981E63D2F900A7A81C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0017E89A1E63D2F900A7A81C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0017E89F1E63D2F900A7A81C /* primesPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = primesPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0017E8A31E63D2F900A7A81C /* primesPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = primesPadTests.swift; sourceTree = "<group>"; };
+		0017E8A51E63D2F900A7A81C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0017E8AA1E63D2F900A7A81C /* primesPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = primesPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0017E8AE1E63D2F900A7A81C /* primesPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = primesPadUITests.swift; sourceTree = "<group>"; };
+		0017E8B01E63D2F900A7A81C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A2A3EC1E64F33200D1CDEA /* DoubleButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DoubleButton.png; sourceTree = "<group>"; };
+		00A2A3ED1E64F33200D1CDEA /* HalfButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HalfButton.png; sourceTree = "<group>"; };
+		00A2A3EE1E64F33200D1CDEA /* ThirdButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ThirdButton.png; sourceTree = "<group>"; };
+		00A2A3EF1E64F33200D1CDEA /* TripleButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TripleButton.png; sourceTree = "<group>"; };
+		00B175371E64126100F171AB /* RtSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RtSwift.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0017E8881E63D2F900A7A81C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B175391E64167200F171AB /* RtSwift.framework in Frameworks */,
+				00B175381E64126100F171AB /* RtSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0017E89C1E63D2F900A7A81C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0017E8A71E63D2F900A7A81C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0017E8821E63D2F900A7A81C = {
+			isa = PBXGroup;
+			children = (
+				0017E88D1E63D2F900A7A81C /* primesPad */,
+				0017E8A21E63D2F900A7A81C /* primesPadTests */,
+				0017E8AD1E63D2F900A7A81C /* primesPadUITests */,
+				0017E88C1E63D2F900A7A81C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0017E88C1E63D2F900A7A81C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0017E88B1E63D2F900A7A81C /* primesPad.app */,
+				0017E89F1E63D2F900A7A81C /* primesPadTests.xctest */,
+				0017E8AA1E63D2F900A7A81C /* primesPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0017E88D1E63D2F900A7A81C /* primesPad */ = {
+			isa = PBXGroup;
+			children = (
+				00A2A3EB1E64F31D00D1CDEA /* Assets */,
+				00B175371E64126100F171AB /* RtSwift.framework */,
+				0017E88E1E63D2F900A7A81C /* AppDelegate.swift */,
+				0017E8901E63D2F900A7A81C /* ViewController.swift */,
+				0017E8921E63D2F900A7A81C /* Main.storyboard */,
+				0017E8951E63D2F900A7A81C /* Assets.xcassets */,
+				0017E8971E63D2F900A7A81C /* LaunchScreen.storyboard */,
+				0017E89A1E63D2F900A7A81C /* Info.plist */,
+			);
+			path = primesPad;
+			sourceTree = "<group>";
+		};
+		0017E8A21E63D2F900A7A81C /* primesPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				0017E8A31E63D2F900A7A81C /* primesPadTests.swift */,
+				0017E8A51E63D2F900A7A81C /* Info.plist */,
+			);
+			path = primesPadTests;
+			sourceTree = "<group>";
+		};
+		0017E8AD1E63D2F900A7A81C /* primesPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0017E8AE1E63D2F900A7A81C /* primesPadUITests.swift */,
+				0017E8B01E63D2F900A7A81C /* Info.plist */,
+			);
+			path = primesPadUITests;
+			sourceTree = "<group>";
+		};
+		00A2A3EB1E64F31D00D1CDEA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				00A2A3EC1E64F33200D1CDEA /* DoubleButton.png */,
+				00A2A3ED1E64F33200D1CDEA /* HalfButton.png */,
+				00A2A3EE1E64F33200D1CDEA /* ThirdButton.png */,
+				00A2A3EF1E64F33200D1CDEA /* TripleButton.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0017E88A1E63D2F900A7A81C /* primesPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0017E8B31E63D2F900A7A81C /* Build configuration list for PBXNativeTarget "primesPad" */;
+			buildPhases = (
+				0017E8871E63D2F900A7A81C /* Sources */,
+				0017E8881E63D2F900A7A81C /* Frameworks */,
+				0017E8891E63D2F900A7A81C /* Resources */,
+				00B1753B1E64167200F171AB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = primesPad;
+			productName = primesPad;
+			productReference = 0017E88B1E63D2F900A7A81C /* primesPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0017E89E1E63D2F900A7A81C /* primesPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0017E8B61E63D2F900A7A81C /* Build configuration list for PBXNativeTarget "primesPadTests" */;
+			buildPhases = (
+				0017E89B1E63D2F900A7A81C /* Sources */,
+				0017E89C1E63D2F900A7A81C /* Frameworks */,
+				0017E89D1E63D2F900A7A81C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0017E8A11E63D2F900A7A81C /* PBXTargetDependency */,
+			);
+			name = primesPadTests;
+			productName = primesPadTests;
+			productReference = 0017E89F1E63D2F900A7A81C /* primesPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0017E8A91E63D2F900A7A81C /* primesPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0017E8B91E63D2F900A7A81C /* Build configuration list for PBXNativeTarget "primesPadUITests" */;
+			buildPhases = (
+				0017E8A61E63D2F900A7A81C /* Sources */,
+				0017E8A71E63D2F900A7A81C /* Frameworks */,
+				0017E8A81E63D2F900A7A81C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0017E8AC1E63D2F900A7A81C /* PBXTargetDependency */,
+			);
+			name = primesPadUITests;
+			productName = primesPadUITests;
+			productReference = 0017E8AA1E63D2F900A7A81C /* primesPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0017E8831E63D2F900A7A81C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kyle Mccarthy";
+				TargetAttributes = {
+					0017E88A1E63D2F900A7A81C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7M935X73CY;
+						ProvisioningStyle = Automatic;
+					};
+					0017E89E1E63D2F900A7A81C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7M935X73CY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0017E88A1E63D2F900A7A81C;
+					};
+					0017E8A91E63D2F900A7A81C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7M935X73CY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0017E88A1E63D2F900A7A81C;
+					};
+				};
+			};
+			buildConfigurationList = 0017E8861E63D2F900A7A81C /* Build configuration list for PBXProject "primesPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0017E8821E63D2F900A7A81C;
+			productRefGroup = 0017E88C1E63D2F900A7A81C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0017E88A1E63D2F900A7A81C /* primesPad */,
+				0017E89E1E63D2F900A7A81C /* primesPadTests */,
+				0017E8A91E63D2F900A7A81C /* primesPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0017E8891E63D2F900A7A81C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A2A3F11E64F33200D1CDEA /* HalfButton.png in Resources */,
+				0017E8991E63D2F900A7A81C /* LaunchScreen.storyboard in Resources */,
+				0017E8961E63D2F900A7A81C /* Assets.xcassets in Resources */,
+				00A2A3F31E64F33200D1CDEA /* TripleButton.png in Resources */,
+				00A2A3F01E64F33200D1CDEA /* DoubleButton.png in Resources */,
+				0017E8941E63D2F900A7A81C /* Main.storyboard in Resources */,
+				00A2A3F21E64F33200D1CDEA /* ThirdButton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0017E89D1E63D2F900A7A81C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0017E8A81E63D2F900A7A81C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0017E8871E63D2F900A7A81C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0017E8911E63D2F900A7A81C /* ViewController.swift in Sources */,
+				0017E88F1E63D2F900A7A81C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0017E89B1E63D2F900A7A81C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0017E8A41E63D2F900A7A81C /* primesPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0017E8A61E63D2F900A7A81C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0017E8AF1E63D2F900A7A81C /* primesPadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0017E8A11E63D2F900A7A81C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0017E88A1E63D2F900A7A81C /* primesPad */;
+			targetProxy = 0017E8A01E63D2F900A7A81C /* PBXContainerItemProxy */;
+		};
+		0017E8AC1E63D2F900A7A81C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0017E88A1E63D2F900A7A81C /* primesPad */;
+			targetProxy = 0017E8AB1E63D2F900A7A81C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0017E8921E63D2F900A7A81C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0017E8931E63D2F900A7A81C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0017E8971E63D2F900A7A81C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0017E8981E63D2F900A7A81C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0017E8B11E63D2F900A7A81C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0017E8B21E63D2F900A7A81C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0017E8B41E63D2F900A7A81C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7M935X73CY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/primesPad",
+				);
+				INFOPLIST_FILE = primesPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kyr0.com.primesPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0017E8B51E63D2F900A7A81C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7M935X73CY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/primesPad",
+				);
+				INFOPLIST_FILE = primesPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kyr0.com.primesPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		0017E8B71E63D2F900A7A81C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7M935X73CY;
+				INFOPLIST_FILE = primesPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kyr0.com.primesPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/primesPad.app/primesPad";
+			};
+			name = Debug;
+		};
+		0017E8B81E63D2F900A7A81C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7M935X73CY;
+				INFOPLIST_FILE = primesPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kyr0.com.primesPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/primesPad.app/primesPad";
+			};
+			name = Release;
+		};
+		0017E8BA1E63D2F900A7A81C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7M935X73CY;
+				INFOPLIST_FILE = primesPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kyr0.com.primesPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = primesPad;
+			};
+			name = Debug;
+		};
+		0017E8BB1E63D2F900A7A81C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7M935X73CY;
+				INFOPLIST_FILE = primesPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kyr0.com.primesPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = primesPad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0017E8861E63D2F900A7A81C /* Build configuration list for PBXProject "primesPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0017E8B11E63D2F900A7A81C /* Debug */,
+				0017E8B21E63D2F900A7A81C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0017E8B31E63D2F900A7A81C /* Build configuration list for PBXNativeTarget "primesPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0017E8B41E63D2F900A7A81C /* Debug */,
+				0017E8B51E63D2F900A7A81C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0017E8B61E63D2F900A7A81C /* Build configuration list for PBXNativeTarget "primesPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0017E8B71E63D2F900A7A81C /* Debug */,
+				0017E8B81E63D2F900A7A81C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0017E8B91E63D2F900A7A81C /* Build configuration list for PBXNativeTarget "primesPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0017E8BA1E63D2F900A7A81C /* Debug */,
+				0017E8BB1E63D2F900A7A81C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0017E8831E63D2F900A7A81C /* Project object */;
+}
